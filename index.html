@@ -3,227 +3,215 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Bootstrap Components</title>
-	<link rel="stylesheet" href="./index.css"/>
+	<title>Wireframes, Mockups and Prototypes || Discusion</title>
+
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Zilla+Slab:wght@300;400;500;600&display=swap" rel="stylesheet">
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&family=Roboto:ital,wght@0,400;1,700&family=Zilla+Slab&display=swap" rel="stylesheet">
+	<!-- Google Fonts -->
+
+	<!-- External CSS -->
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<!-- External CSS -->
+
 
 </head>
 <body>
 
 	<!-- Navbar Start -->
-	<nav class="fixed-top navbar navbar-expand-lg navbar-dark bg-dark-blue">
-	  <img src="./images/mylogo.jpg" width="50">
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
-	  <div class="collapse navbar-collapse fixed-top" id="navbarNav">
-	    <ul class="pt-2 navbar-nav ml-auto">
-	      <li class="nav-item active">
-	        <a class="mx-3 nav-link" href="#landing">About Me<span class="sr-only">(current)</span></a>
-	      </li>
-	      <li class="mx-3 nav-item active">
-	        <a class="nav-link" href="#projects">Projects</a>
-	      </li>	      
-	      <li class="ml-3 nav-item active">
-	        <a class="nav-link" href="#tools">Tools</a>
-	      </li>
-	      <li class="mx-3 nav-item active">
-	        <a class="nav-link" href="#Contact">Contact</a>
-	      </li>	
-	    </ul>
-	  </div>
-	</nav>
-	<!-- Navbar Start -->
-
-
-	<!-- Main content section Start -->
-	<div id="landing" class="container-fluid text-center bg-dark-blue">
-		<div class="row">
-
-			<!-- Side Content Section -->
-			<div>
-				<!-- Profile Content Section Start -->
-				<div class="container-fluid bg-blue text-light p-3 pt-5 pb-5">
-					<img class="rounded-circle w-25 mt-5" src="./images/formal.jpg" width="100vh">
-					<h1 class="pt-5">Jay Ralph Villegas</h1>
-					<h3 >Full-Stack Developement</h3>
-					<div class="row mt-5">
-						<div class="container offset-md-3 col-md-6">
-							<p>
-								"Hello and welcome to my portfolio! I'm excited to showcase my skills and projects to you. I'm a web developer with a passion for creating beautiful, functional, and user-friendly websites. As you navigate through my portfolio, you'll see examples of my work and learn about my experience and approach to web development. Feel free to reach out to me if you have any questions or would like to work together. Let's build something amazing together!"
-							</p>							
-						</div>						
-					</div>
-
-					<!-- Project Section -->
-					<div id="projects" class="container-fluid text-center p-3 m3">    
-					    <h3 class="pb-3 pt-5">Projects</h3>
-
-					    <!-- Web API Ecommerce Start -->
-					    <div class="row p-3 pt-3 pb-3">
-					    	<div class="col-md-6 order-1 order-lg-2 order-lg-2 text-justify">
-					    	    <img class="w-100" src="https://www.cloudways.com/blog/wp-content/uploads/Rest-API-introduction.jpg"/>
-					    	</div>
-					        
-					        <div class="col-md-6 order-2 order-lg-1 order-sm-2 text-justify">
-					            <h5 class="text-center">Web API</h5>
-					            <p>A web API (Application Programming Interface) is a set of protocols and standards used to exchange data between different software applications over the internet. It allows software applications to communicate with each other and access services or data provided by another application or server. Web APIs are commonly used in modern web development to enable developers to integrate different applications and services into their own projects, without having to reinvent the wheel. They provide a standardized way for developers to access and manipulate data, allowing for the creation of more powerful and feature-rich applications. Some common examples of web APIs include the Google Maps API, the Twitter API, and the Facebook API.</p>
-					        </div>
-					        
-					    </div>
-					    <!-- Web API Ecommerce End -->
-
-					    <!-- React Frontend Ecommerce Start -->
-					    <div class="row pl-3 pt-3 pb-5 pr-3">
-					        <div class="col-md-6 order-1 order-lg-2 order-lg-2 text-justify">
-					            <img class="w-100" src="https://d6vdma9166ldh.cloudfront.net/media/images/1455b5c8-4887-43a8-8214-de77543414c9.jpg"/>
-
-					        </div>
-					        
-					        <div class="col-md-6 order-1 order-lg-2 order-lg-2 text-justify">
-					            <h5 class="text-center">React Frontend</h5>
-					            <p>React is a popular front-end JavaScript library used for building user interfaces. It allows developers to create reusable UI components that can be combined to build complex applications. React uses a virtual DOM (Document Object Model) which improves performance by reducing the need to directly manipulate the actual DOM. This means that when changes are made to the UI, only the affected components are updated, rather than the entire page. React is also very flexible and can be used with other technologies like Redux for state management or GraphQL for API data retrieval. With its ease of use and broad community support, React has become a go-to choice for building modern, scalable and efficient web applications.</p>
-					        </div>
-					        
-					        
-					    </div>
-					    <!-- Project Section -->
-
-					<div class="container-fluid bg-blue text-light min-vh-100 p-5">
-						<h2 class="mb-3">Other Project</h2>
-
-						<!-- Other Projects Container Start -->
-						<div class="con d-lg-flex justify-content-center p-md-5">
-
-							<!-- HTML Card Start -->
-							<div class="container-fluid card bg-dark col-xl-4 mb-5 mb-xl-0">
-							  <div class="card-body p-3">
-							  	<img src="https://3.bp.blogspot.com/-7x5c_f1yzsQ/XHv9FZKHrEI/AAAAAAAADrE/4iGl9Lm6K2odX4SdWbU_RN6gZesx4IaGACEwYBhgL/s1600/html.jpg" class="card-img-top">
-							    <h5 class="card-title">HTML</h5>
-							    <h6 class="card-subtitle mb-2 text-muted">Programing Basics</h6>
-							    <p class="card-text">HTML (HyperText Markup Language) is a markup language used to create and structure content for the web. It uses a set of tags and attributes to define the various elements of a web page, such as text, images, links, and multimedia. HTML documents are interpreted by web browsers to display the content of a web page. HTML is a core technology for creating web pages, along with CSS (Cascading Style Sheets) and JavaScript, which are used to add style and interactivity to the content.</p>
-							    <a href="#" class="card-link">Card link</a>
-							    <a href="#" class="card-link">Another link</a>
-							  </div>
-							</div>
-							<!-- HTML Card End -->
-
-							<!-- Bootstrap Card Start -->
-							<div class="card bg-dark col-xl-4 mb-5 mb-xl-0">
-							  <div class="card-body p-3">
-							  	<img src="https://miro.medium.com/max/1400/1*2sNAb8cIxpOQ9Hi17hbg_A.png" class="card-img-top">
-							    <h5 class="card-title">Bootstrap</h5>
-							    <h6 class="card-subtitle mb-2 text-muted">Rapid Prototyping</h6>
-							    <p class="card-text">Bootstrap is a popular front-end web development framework that provides a set of pre-built HTML, CSS, and JavaScript components, as well as a responsive grid system, to help developers build responsive, mobile-first web pages and web applications. It was developed by Twitter and is now maintained as an open-source project. Bootstrap is designed to be easy to use, with a focus on consistency, customization, and accessibility. By using Bootstrap, developers can save time and effort by relying on the pre-built components, rather than building everything from scratch. Bootstrap is widely used by web developers and is compatible with a variety of web development platforms, including HTML, CSS preprocessors, and JavaScript frameworks.</p>
-							    <a href="#" class="card-link">Card link</a>
-							    <a href="#" class="card-link">Another link</a>
-							  </div>
-							</div>
-							<!-- Bootstrap Card End -->
-
-							<!-- Node JS Server Card Start -->
-							<div class="card bg-dark col-xl-4 mb-5 mb-xl-0">
-							  <div class="card-body p-3">
-							  	<img src="https://clever-solution.com/wp-content/uploads/2020/04/5625%D0%9C%D0%BE%D0%BD%D1%82%D0%B0%D0%B6%D0%BD%D0%B0%D1%8F-%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C-1-1280x720.png" class="card-img-top">
-							    <h5 class="card-title">Node JS Server</h5>
-							    <h6 class="card-subtitle mb-2 text-muted">Backend Basics</h6>
-							    <p class="card-text">Node.js is a server-side JavaScript runtime environment built on Chrome's V8 JavaScript engine. It allows developers to write JavaScript code outside of a web browser, making it possible to run JavaScript on the server side. This means that developers can create server-side applications with JavaScript, rather than relying on other server-side languages like PHP or Python. Node.js provides an event-driven, non-blocking I/O model that makes it lightweight and efficient, and it has a rich ecosystem of libraries and modules available through the Node Package Manager (NPM) that makes it easy to build scalable and complex applications. Node.js is widely used for developing server-side web applications, APIs, and real-time applications, among other things.</p>
-							    <a href="#" class="card-link">Card link</a>
-							    <a href="#" class="card-link">Another link</a>
-							  </div>
-							</div>
-							<!-- Node JS Server Card End -->
-							
-						</div>
-						<!-- Other Projects Container ENd -->
-					</div>
-
-					<!-- Tools Section Start -->
-					<div id="tools" class="justify-content-center">
-
-					    <!-- Core Tools Section Start -->
-					    <h3 class="pt-5 text-center">Core Tools</h3>
-
-					    <div class="container">
-					        <div class=" d-flex d-md-flex justify-content-center">
-					            <img width="150" src="images/logo-html5.png"/>
-					        </div>
-					        <div class="d-flex d-md-flex justify-content-center">
-					            <img width="150" src="images/logo-css3.png"/>
-					            <img width="150" src="images/logo-javascript.png"/>
-					        </div>
-					    </div>
-					    <!-- Core Tools Section End -->
-
-					    <!-- Other Tools Section Start -->
-					    <h3 class="pt-5 text-center">Other Tools</h3>
-
-					    <div class="container mb-5 pb-5 d-flex d-md-block justify-content-around justify-content-center">
-					        <div class="d-md-flex justify-content-around">
-					            <img width="150" src="images/logo-mongodb.png"/>
-					            <img width="150" src="images/logo-nodejs.png"/>
-					            <img width="150" src="images/logo-expressjs.png"/>
-					            <img width="150" src="images/logo-react.png"/>
-					        </div>
-					        <div class="d-md-flex justify-content-around">
-					            <img width="150" src="images/logo-git.png"/>
-					            <img width="150" src="images/logo-sublime-text-3.png"/>
-					            <img width="150" src="images/logo-postman.png"/>
-					            <img width="150" src="images/logo-gitlab-ci-cd.png"/>
-					        </div>
-					    </div>
-					    <!-- Other Tools Section End -->
-					    
-					</div>
-					<!-- Tools Section End -->
-
-
-
-
-						<!-- Contact Me Section -->
-		<div id="contact">
-		    <!-- form --> 
-	    	<h2 class="pt-5 mt-5">Contact Me</h2>
-	    	<div class="row align-item-center justify-content-center">
-			    <form class="col-lg-6 col-md-8 col-sm-12">
-			        <div class="row align-item-center justify-content-center flex py-5 p-5 mx-5 bg-dark-blue rounded-top rounded-bottom">
-		              	<label for="name" class="form-label">Name</label>
-						<input type="name" class="form-control" id="name" placeholder="Your Name">
-						<label for="emailHelp">Email Address</label>
-		              	<input placeholder="name@example.com" type="email" class="form-control" id="emailHelp" aria-describedby="emailHelp">		
-		              	<label for="emailHelp">Contact Number</label>
-		              	<input placeholder="+63 900 000 0000" type="Contact" class="form-control" id="Contact"aria-describedby="emailHelp">
-		              	<label for="concern">Concern</label>
-		              	<select class="form-control form-control-md">
-		                <option>Qoutation 1</option>
-		                <option>Qoutation 2</option>
-		                <option>Qoutation 3</option>
-		              	</select>
-	            	    <label for="Textarea1">Message</label>
-	            	    <textarea class="form-control" id="Textarea1" rows="7"></textarea>
-	            	  	<button type="button" onclick="buttonClick()" class="btn btn-success my-3">Send Email</button>
-			        </div>
-			    </form>
-		    </div>
-		</div>
-					
-					<!-- Contact Me Section -->
-
-				</div>			
+	<nav class="fixed-top navbar navbar-expand-md navbar-light bg-light" id="bg-color">
+		<div class="container-fluid px-3" >
+			<a class="navbar-brand px-3" href="#top" id="logo">JRV</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse px-3" id="navbarNav">
+			  	<div class="navbar-nav ml-auto">
+			      	<a class="nav-link ml-3" href="#about">About Me</a>
+			      	<a class="nav-link ml-3" href="#works">Projects</a>
+			      	<a class="nav-link ml-3" href="#tools">Tools</a>
+			    	<a class="nav-link ml-3" href="#contact">Contact</a>
+			  	</div>
 			</div>
-			<!-- Side Content Section -->
-		</div>		
-		<!-- Side Content Section -->
+		</div>
+	</nav>
+	<!-- Navbar End -->
+
+	<!-- Start of page4/landing -->
+	<div class="container-fluid" id="landing">
+		<div class="row vh-100  align-items-center">
+			<div class="col-md-12 text-center">
+				<div>
+					<h1 class="col-6 container justify-content-center" id="title">Designing your digital dreams into reality</h1>
+					<a href="#works" class="d-inline-block text-decoration-none mt-5" id="base">View My Projects</a>
+				</div>
+				
+			</div>
+		</div>
 	</div>
-	
+	<!-- Start of page4/landing -->
+
+	<!-- start of page2/aboutme -->
+	<div class="container py-5	my-5" id="about">
+		<div class="row justify-content-center align-items-center py-5	my-5">
+			<div class="col-lg-6 col-md-12 col-sm-12">
+				<img src="./images/myphoto.jpg" class="img-fluid">
+			</div>
+
+			<div class="col-lg-6 col-md-12 col-sm-12 py-5 text-center">
+				<h2>Hello there! My name is <strong>Jay Ralph Villegas</strong>, and I'm a <strong>FullStack Web Developer</strong>.</h2>
+				<p>I specialize in designing and developing websites that are both visually appealing and highly functional. <br> <br>
+
+				With my knowledge in HTML, CSS, JavaScript, and Bootstrap, I can create beautiful web designs that are optimized for both desktop and mobile platforms. I also have experience using Git, Github, and Gitlab for version control and collaboration with other developers. <br> <br>
+
+				In addition to my technical skills, I have a strong understanding of responsive web design principles and frontend development best practices. I'm always eager to learn new technologies and stay up-to-date with the latest trends in the industry. <br> <br>
+
+				If you're looking for a skilled and dedicated FullStack Web Developer, feel free to contact me. I'd love to help you bring your website to life!</p>
+				
+			</div>
+		</div>	
+	</div>
+	<!-- end of page2/aboutme -->
+
+	<!-- Start of My Works -->
+	<div class="container-fluid py-5 my-5" id="works">
+		<h1 class="text-white text-center pt-5">My Projects</h1>
+		<div class="row py-5">
+			<div class="col-md-4 py-3">
+				<div class="card">
+			    	<img src="./images/project1.JPG" class="card-img-top" alt="...">
+			    	<div class="card-body">
+				      	<h5 class="card-title">First Project</h5>
+				      	<p class="card-text">My Portfolio</p>
+				      	<a href="https://jayralphvillegas.github.io/webportfolio/" class="btn btn-primary">View Project</a>
+				    </div>
+				</div>
+			</div>
+			<div class="col-md-4 py-3">
+				<div class="card">
+			    	<img src="./images/project1.JPG" class="card-img-top" alt="...">
+			    	<div class="card-body">
+				      	<h5 class="card-title">HTML Projects</h5>
+				      	<p class="card-text">My first HMTL code</p>
+				      	<a href="#works" class="btn btn-primary">View Project</a>
+				    </div>
+				</div>
+			</div>
+			<div class="col-md-4 py-3">
+				<div class="card">
+				    <img src="./images/project1.JPG" class="card-img-top" alt="...">
+				    <div class="card-body">
+				      	<h5 class="card-title">CSS Projects</h5>
+				      	<p class="card-text">My first CSS code</p>
+				      	<a href="#works" class="btn btn-primary">View Project</a>
+				  	</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End of My Works -->
+
+	<!-- Tools Section Start -->
+	<div id="tools" class="justify-content-center">
+
+	    <!-- Core Tools Section Start -->
+	    <h3 class="pt-5 text-center">Core Tools</h3>
+
+	    <div class="container">
+	        <div class=" d-flex d-md-flex justify-content-center">
+	            <img width="150" src="images/logo-html5.png"/>
+	        </div>
+	        <div class="d-flex d-md-flex justify-content-center">
+	            <img width="150" src="images/logo-css3.png"/>
+	            <img width="150" src="images/logo-javascript.png"/>
+	        </div>
+	    </div>
+	    <!-- Core Tools Section End -->
+
+	    <!-- Other Tools Section Start -->
+	    <h3 class="pt-5 text-center">Other Tools</h3>
+
+	    <div id="tools" class="container mb-5 pb-5 d-flex d-md-block justify-content-around justify-content-center">
+	        <div class="d-md-flex justify-content-around">
+	            <img width="150" src="images/logo-mongodb.png"/>
+	            <img width="150" src="images/logo-nodejs.png"/>
+	            <img width="150" src="images/logo-expressjs.png"/>
+	            <img width="150" src="images/logo-react.png"/>
+	        </div>
+	        <div class="d-md-flex justify-content-around">
+	            <img width="150" src="images/logo-git.png"/>
+	            <img width="150" src="images/logo-sublime-text-3.png"/>
+	            <img width="150" src="images/logo-postman.png"/>
+	            <img width="150" src="images/logo-gitlab-ci-cd.png"/>
+	        </div>
+	    </div>
+	    <!-- Other Tools Section End -->
+	    
+	</div>
+	<!-- Tools Section End -->
+
+	<!-- Start of Contact -->
+	<div  id="contact" class=" container-fluid ">
+		<div class="row justify-content-center align-items-center">
+			<div class="col-md-6 align-items-center	">
+				<img class="img-fluid w-100 w-50" src="./images/contactus.png">
+			</div>
+			<div class="col-md-6 col-lg-4">
+				<div>
+					<div class="py-5">
+						<h3 id="contact-us" class="text-center">CONTACT US</h3>
+						<p id="thankyou" class="text-center">Thank you for your time and I look forward to hearing back from you soon</p>
+						<form>
+						 	<div class="pt-5">
+						      <label for="validationDefault01">Name</label>
+						      <input type="text" class="form-control" id="validationDefault01" value="John Doe" required>
+						      <label class="pt-3" for="validationDefault02">Email Address</label>
+						      <input type="text" class="form-control" id="validationDefault02" value="john.doe@mail.com" required>
+						      <label class="pt-3" for="exampleFormControlTextarea1">Message</label>
+						      <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
+						    </div>
+						    <div>
+						  	<button id="submit-button" class="btn btn-right my-3 justify-content-end text-white float-right" type="submit">Submit</button>
+						  	</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End of contact -->
+
+	<!-- start of pre-footer -->
+	<div class="container-fluid pt-5" id="social">
+		<h4 class="mt-3" id="follow">Follow me on social media</h4> 
+		<div class="row justify-content-center">
+			<div class="col-8 col-md-4 col-lg-2 d-flex justify-content-between my-3 py-3">
+				<a href="https://www.facebook.com/ralph.villegas.338">
+				<img src="./images/myfacebook.png" href="#works">
+				</a>
+				<a href="https://www.linkedin.com/in/jay-ralph-villegas-2a5922265/?original_referer=">
+				<img src="./images/mylinkedin.png">
+				</a>
+				<a href="https://jayralphvillegas.github.io/webportfolio"/>
+				<img src="./images/mygit.png">
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- end of pre-footer -->
 
 
 
-
-
+	<!-- start of footer -->
+	<div>
+		<footer class="py-3 text-dark">
+		Copyright © 2023 Jay Ralph Villegas. All rights reserved.</footer>
+	</div>
+	<!-- end of footer -->
 
 	<!-- Bootstrap Script -->
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
